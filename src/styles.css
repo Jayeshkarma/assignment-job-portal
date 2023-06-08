@@ -1,0 +1,62 @@
+.job-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.job-card h2 {
+  margin: 0;
+}
+
+.job-description {
+  margin-bottom: 10px;
+}
+
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.job-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #eee;
+  color: #333;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.job-details {
+  display: flex;
+  flex-direction: column;
+}

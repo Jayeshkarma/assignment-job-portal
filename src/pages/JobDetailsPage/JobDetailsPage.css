@@ -1,0 +1,53 @@
+.job-details {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.job-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-description {
+  margin-bottom: 20px;
+}
+
+.job-info-item {
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.job-requirements,
+.job-responsibilities {
+  margin-top: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.apply-button,
+.save-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.save-button {
+  margin-left: 10px;
+}
+
+.apply-button:hover,
+.save-button:hover {
+  background-color: #0056b3;
+}
